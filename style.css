@@ -27,6 +27,12 @@ body{
     margin: 5% 25%;
 }
 
+@media screen and (max-width: 550px){
+    .form{
+        margin: 25%;
+    }
+}
+
 .entry{
     display: flex;
     flex-wrap: wrap;
@@ -42,6 +48,13 @@ body{
 
 .entry input{
     font-size: 1rem;
+}
+
+@media screen and (max-width: 550px){
+    .entry input{
+        width: 10rem;
+        font-size: 0.9rem;
+    }
 }
 
 .entry button{
@@ -64,6 +77,12 @@ body{
     margin-top: 10px;
     font-size: 1.2rem;
     padding: 10px 20px;
+}
+
+@media screen and (max-width: 550px){
+    .items{
+        font-size: 0.9rem;
+    }
 }
 
 .items:nth-child(even) {
